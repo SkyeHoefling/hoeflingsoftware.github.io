@@ -6,10 +6,8 @@ url: http://www.hoeflingsoftware.com.com
 title: Hoefling Software
 email: andrew@hoeflingsoftware.com
 author: Andrew Hoefling
-description: > # "Write an awesome description for your new site here. 
-  You can edit this line in _config.yml. It will appear in your document 
-  head meta (for Google search results) and in your feed.xml site 
-  description.
+about: >
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent porttitor pellentesque mauris. Mauris orci velit, porttitor et lacinia id, venenatis in dolor. Suspendisse in accumsan orci. Mauris ut nulla euismod, tincidunt sapien ut, facilisis velit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi fringilla, velit ac porttitor tincidunt, nulla urna hendrerit lacus, eget aliquet ante lectus ac dolor. Etiam ultricies augue ligula, sed congue justo luctus ac. Etiam vitae varius justo. Etiam ullamcorper ultrices massa, vel facilisis massa cursus vel. Etiam vitae semper nisi, quis sollicitudin nisi. In hac habitasse platea dictumst. Nullam erat mauris, egestas non dolor in, maximus eleifend elit. Suspendisse at nulla mi. Phasellus faucibus eleifend pulvinar. Suspendisse viverra enim in nisi egestas convallis.
 copyright: 'Copyright &copy; 2017 Hoefling Software. All Rights Reserved.'
 credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.'
 
