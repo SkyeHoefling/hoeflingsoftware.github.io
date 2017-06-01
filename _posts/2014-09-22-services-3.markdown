@@ -1,0 +1,21 @@
+---
+layout: default
+img: phones.png
+category: Services
+title: Web Application Development
+description: |
+---
+
+We provide custom Web Applications which solve from a range of business problems that 
+require a little bit of interaction with the end user outside of browsing static content.
+
+A properly built web application will allow your users to have a better User Experience (UX)
+and get more value out of visiting your website.
+
+Examples:
+<ul>
+    <li>eCommerice</li>
+    <li>Purchase Tracking</li>
+    <li>Human Resource Portal</li>
+    <li>etc.</li>
+</ul>
