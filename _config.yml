@@ -17,7 +17,7 @@ about: >
   </ul>
   <p>I am passionate about Code Quality and believe writing software and architecting software are 2 different skills. I provide software that will stand the test of time an minimize production issues.</p>
 copyright: 'Copyright &copy; 2017 Hoefling Software. All Rights Reserved.'
-credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.'
+credits: 
 
 # ----------------------- #
 #    Jekyll & Plugins     #

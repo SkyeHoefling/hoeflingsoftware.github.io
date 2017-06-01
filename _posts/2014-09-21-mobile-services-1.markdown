@@ -1,6 +1,6 @@
 ---
 layout: default
-img: ipad.png
+img: phones.png
 category: Services
 title: Mobile Application Development:<br>Cross-Platform
 description: |
