@@ -181,3 +181,7 @@ p.copyright {
     position: absolute;
     padding-left: 3em;
 }
+
+.navbar {
+    padding: 1em 0;
+}
