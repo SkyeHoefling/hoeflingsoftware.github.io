@@ -1,4 +1,16 @@
-<section id="work">
+<!-- About Section -->
+<section id="work" class="container">
+  <div class="row">
+    <h2>WORK</h2>
+    {% for post in site.posts %}
+      {% if post.category == 'Work' %}
+      <div>{{ post.title }}</div>
+      {% endif %}      
+    {% endfor %}
+  </div>
+</section>
+
+<!-- <section id="work">
 {% for post in site.posts reversed %}
   {% if post.category == 'Services' %}
     {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
@@ -37,4 +49,4 @@
     {% endif %}
   {% endif %}
 {% endfor %}
-</section>
+</section> -->
