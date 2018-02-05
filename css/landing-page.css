@@ -169,12 +169,14 @@ p.copyright {
     text-align: left;
 }
 
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
 .navbar-brand > img {
-    position: absolute;
-    top:50%;
-    bottom: 50%;
-    transform: translate(-50%, -50%);
-    padding-left: 2em;
+    display: flex;
+    justify-content: center;
 }
 
 .navbar-brand > span {
