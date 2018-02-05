@@ -222,3 +222,8 @@ p.copyright {
 .container > .row > h2{
     margin-top:3em;
 }
+
+.content-heading{
+    margin-top:1em;
+    margin-bottom:1em;
+}
