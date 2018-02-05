@@ -2,11 +2,16 @@
 <section id="work" class="container">
   <div class="row">
     <h2>WORK</h2>
-    {% for post in site.posts %}
-      {% if post.category == 'Work' %}
-      <div>{{ post.title }}</div>
-      {% endif %}      
-    {% endfor %}
+    <div class="casestudies">
+      {% for post in site.posts %}
+        {% if post.category == 'Work' %}      
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-center">
+            <img src="/img/casestudies/{{ post.img }}" />
+            <h3>{{ post.title }}</h3>
+          </div>         
+        {% endif %}      
+      {% endfor %}
+    </div>
   </div>
 </section>
 

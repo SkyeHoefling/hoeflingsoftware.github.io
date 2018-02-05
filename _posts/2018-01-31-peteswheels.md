@@ -1,6 +1,6 @@
 ---
 layout: default
-img: phones.png
+img: wheelbuilder.png
 category: Work
 title: E-Commerce Website
 description: |
