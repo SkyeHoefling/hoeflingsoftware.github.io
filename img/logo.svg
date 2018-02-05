@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo">
+            <g>
+                <rect id="Rectangle-9" x="0" y="0" width="36" height="36"></rect>
+                <g id="logoHoeflingSoftware" fill="#333333" fill-rule="nonzero">
+                    <polygon id="Shape" points="23.5721212 28.1927273 28.2448485 28.1927273 28.2448485 25.3927273 26.3721212 25.3927273 26.3721212 10.4218182 28.2448485 10.4218182 28.2448485 7.69939394 23.5721212 7.69939394"></polygon>
+                    <rect id="Rectangle-path" x="15.1721212" y="16.5721212" width="5.6" height="2.8"></rect>
+                    <polygon id="Shape" points="12.3721212 7.69939394 7.70060606 7.69939394 7.70060606 10.4218182 9.57212121 10.4218182 9.57212121 25.3927273 7.7030303 25.3927273 7.7030303 28.1927273 12.3721212 28.1927273"></polygon>
+                    <path d="M0,0 L0,35.8921212 L35.9442424,35.8921212 L35.9442424,0 L0,0 Z M33.8448485,33.7927273 L2.09939394,33.7927273 L2.09939394,2.09939394 L33.8448485,2.09939394 L33.8448485,33.7927273 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -31,7 +31,7 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background: url(../img/hero.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -167,4 +167,17 @@ p.copyright {
 
 .row li {
     text-align: left;
+}
+
+.navbar-brand > img {
+    position: absolute;
+    top:50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 2em;
+}
+
+.navbar-brand > span {
+    position: absolute;
+    padding-left: 3em;
 }
