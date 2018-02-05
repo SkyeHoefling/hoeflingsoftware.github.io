@@ -208,8 +208,17 @@ p.copyright {
     padding-top:2em;
 }
 
+.casestudies > div {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
 .casestudies > div > img {
     display: block;
     margin-left:auto;
     margin-right:auto;
+}
+
+.container > .row > h2{
+    margin-top:3em;
 }

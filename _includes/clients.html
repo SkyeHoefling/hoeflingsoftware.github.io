@@ -1,0 +1,15 @@
+<!-- About Section -->
+<section id="clients" class="container">
+  <div class="row">
+    <h2>CLIENTS</h2>
+    <div class="casestudies">
+      {% for post in site.posts %}
+        {% if post.category == 'Client' %}      
+          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 text-center">
+            <img src="/img/clients/{{ post.img }}" />
+          </div>         
+        {% endif %}      
+      {% endfor %}
+    </div>
+  </div>
+</section>
