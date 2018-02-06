@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>windows</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="windows">
+            <g>
+                <rect id="Rectangle-5" x="0" y="0" width="50" height="50"></rect>
+                <g id="Group-2" fill="#555555">
+                    <polygon id="Fill-15" points="0 24 24 24 24 0 0 0"></polygon>
+                    <polygon id="Fill-17" points="26 24 50 24 50 0 26 0"></polygon>
+                    <polygon id="Fill-18" points="0 50 24 50 24 26 0 26"></polygon>
+                    <polygon id="Fill-19" points="26 50 50 50 50 26 26 26"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>close</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="close">
+            <g>
+                <rect id="Rectangle-path" x="0" y="0" width="48" height="48"></rect>
+                <polygon id="Shape" fill="#ABABAB" fill-rule="nonzero" points="41.498 9.414 38.668 6.586 24.084 21.172 9.498 6.586 6.668 9.414 21.254 24 6.668 38.586 9.498 41.414 24.084 26.828 38.668 41.414 41.498 38.586 26.912 24"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
