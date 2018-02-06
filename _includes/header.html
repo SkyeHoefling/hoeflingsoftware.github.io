@@ -9,7 +9,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="#home"><img src="/img/logo.svg" /><span>{{ page.brandTitle }}</span></a>
+            <a class="navbar-brand page-scroll"><img src="/img/logo.svg" /><span>{{ page.brandTitle }}</span></a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -17,13 +17,15 @@
                 <li><a class="page-scroll" href="#work">WORK</a></li>
                 <li><a class="page-scroll" href="#about">ABOUT</a></li>
                 <li><a class="page-scroll" href="#contact">CONTACT</a></li>
-                <li><a class="page-scroll" href="#login">LOG IN</a></li>
+                <li><a class="page-scroll" href="#" data-toggle="modal" data-target="#login">LOG IN</a></li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
     </div>
     <!-- /.container -->
 </nav>
+
+
 
 <section id="home">
 <!-- Header -->
@@ -47,3 +49,29 @@
 	</div>
 	<!-- /.intro-header -->
 </section>
+<div class="modal fade" id="login" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <form>
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Support Login</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" class="form-control" id="username" />
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" />                        
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Login</button>
+                </div>
+            </form>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
