@@ -234,10 +234,10 @@ p.copyright {
 }
 
 img.work {
-    filter: grayscale(100%) blur(1px);
+    filter: grayscale(100%);
 }
 
 img.work:hover {
-    filter:grayscale(100%);
+    filter:grayscale(0%);
     cursor: pointer;
 }
