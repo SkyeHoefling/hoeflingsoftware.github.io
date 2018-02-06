@@ -1,57 +1,14 @@
 <!-- About Section -->
 <section id="work" class="container content-section text-center">
     <div class="row">
-      <h2 class="content-heading">Tech Stack</h2>
-      <h4 class="content-heading">Mobile | Web | Desktop | Cloud</h4>
-      <div class="casestudies">
-        <div class="col-xs-3 col-sm-3 col-lg-3">
-            <img src="/img/icons/csharp.svg" />
+        <h2 class="content-heading">Tech Stack</h2>
+        <h4 class="content-heading">Mobile | Web | Desktop | Cloud</h4>
+        <div class="casestudies">
+            {% for tech in site.tech %}
+            <div class="col-xs-3 col-sm-3 col-lg-3">
+                <img src="/img/icons/{{ tech.icon }}" />
+            </div>
+            {% endfor %}
         </div>
-        <div class="col-xs-3 col-sm-3 col-lg-3">
-            <img src="/img/icons/sql.svg" />
-        </div>
-        <div class="col-xs-3 col-sm-3 col-lg-3">
-            <img src="/img/icons/android.svg" />
-        </div>
-        <div class="col-xs-3 col-sm-3 col-lg-3">
-            <img src="/img/icons/dnn.svg" />
-        </div>
-        <div class="col-xs-3 col-sm-3 col-lg-3">
-            <img src="/img/icons/azure.svg" />
-        </div>
-        <div class="col-xs-3 col-sm-3 col-lg-3">
-            <img src="/img/icons/javascript.svg" />
-        </div>
-        <div class="col-xs-3 col-sm-3 col-lg-3">
-            <img src="/img/icons/dotnet.svg" />
-        </div>
-        <div class="col-xs-3 col-sm-3 col-lg-3">
-            <img src="/img/icons/xamarin.svg" />
-        </div>
-        <div class="col-xs-3 col-sm-3 col-lg-3">
-            <img src="/img/icons/windows.svg" />
-        </div>
-        <div class="col-xs-3 col-sm-3 col-lg-3">
-            <img src="/img/icons/html5.svg" />
-        </div>
-        <div class="col-xs-3 col-sm-3 col-lg-3">
-            <img src="/img/icons/ios.svg" />
-        </div>
-        <div class="col-xs-3 col-sm-3 col-lg-3">
-            <img src="/img/icons/css3.svg" />
-        </div>
-        <div class="col-xs-3 col-sm-3 col-lg-3">
-            <img src="/img/icons/jquery.svg" />
-        </div>
-        <div class="col-xs-3 col-sm-3 col-lg-3">
-            <img src="/img/icons/bootstrap.svg" />
-        </div>
-        <div class="col-xs-3 col-sm-3 col-lg-3">
-            <img src="/img/icons/zurb.svg" />
-        </div>
-        <div class="col-xs-3 col-sm-3 col-lg-3">
-            <img src="/img/icons/wordpress.svg" />
-        </div>
-      </div>
     </div>
-  </section>
+</section>

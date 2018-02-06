@@ -6,6 +6,7 @@ url: http://www.hoeflingsoftware.com.com
 title: " Software"
 email: andrew@hoeflingsoftware.com
 author: Andrew Hoefling
+authorTitle: Owner | Developer
 about: >
   <p>Specializing in custom software solutions for projects of any size in the Microsoft Stack of Technology</p>
   <ul>
@@ -42,3 +43,38 @@ about:
     description: We provide custom Web Applicaitons which solve from a range of business problems that require a little bit of interaction with the end user outside of browser static content. <br /><br/> A properly build web applicaiton will allow your users to have a better User Experience (UX) and get more value out of visiting your website.
   - title: Website Development
     description: Custom websites set you apart from the competition, a properly designed website that is easy on the eyes and has a straight forward User Experience (UX) will allow your business to drive more sales. We offer design work that allows you to see what the website looks like before we write any code.
+
+tech:
+  - title: C#
+    icon: csharp.svg
+  - title: SQL Server
+    icon: sql.svg
+  - title: Android
+    icon: android.svg
+  - title: DNN
+    icon: dnn.svg
+  - title: Microsoft Azure
+    icon: azure.svg
+  - title: JavaScript
+    icon: javascript.svg
+  - title: asp.net
+    icon: dotnet.svg
+  - title: Xamarin
+    icon: xamarin.svg
+  - title: Windows
+    icon: windows.svg
+  - title: HTML5
+    icon: html5.svg
+  - title: Apple iOS
+    icon: ios.svg
+  - title: CSS3
+    icon: css3.svg
+  - title: jQuery
+    icon: jquery.svg
+  - title: Bootstrap
+    icon: bootstrap.svg
+  - title: Foundation
+    icon: zurb.svg
+  - title: Wordpress
+    icon: wordpress.svg
+  
