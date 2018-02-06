@@ -233,3 +233,12 @@ p.copyright {
 .icon-label {
     margin-top:1em;
 }
+
+img.work {
+    filter: grayscale(100%) blur(1px);
+}
+
+img.work:hover {
+    filter:grayscale(100%);
+    cursor: pointer;
+}
