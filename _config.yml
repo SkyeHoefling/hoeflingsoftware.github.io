@@ -31,12 +31,6 @@ permalink: pretty
 #   3rd Party Settings    #
 # ----------------------- #
 
-social:
-  - title: twitter
-    url: https://twitter.com/andrew_hoefling
-  - title: github
-    url: https://github.com/ahoefling
-  - title: linkedin
-    url: https://www.linkedin.com/in/andrew-hoefling-38324912 
-  - title: blog
-    url: http://www.andrewhoefling.com/
+twitter: https://twitter.com/andrew_hoefling/
+linkedin: https://www.linkedin.com/in/andrew-hoefling/
+github: https://github.com/ahoefling/
