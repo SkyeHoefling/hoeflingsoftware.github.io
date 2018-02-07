@@ -9,14 +9,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="#home"><img src="/img/logo.svg" /><span>{{ page.brandTitle }}</span></a>
+            <a class="navbar-brand page-scroll" href="{% if page.layout != 'default' %}/{% endif %}#home"><img src="/img/logo.svg" /><span>{{ page.brandTitle }}</span></a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">  
-                <li><a class="page-scroll" href="#work">WORK</a></li>
-                <li><a class="page-scroll" href="#about">ABOUT</a></li>
-                <li><a class="page-scroll" href="#contact">CONTACT</a></li>
+                <li><a class="page-scroll" href="{% if page.layout != 'default' %}/{% endif %}#work">WORK</a></li>
+                <li><a class="page-scroll" href="{% if page.layout != 'default' %}/{% endif %}#about">ABOUT</a></li>
+                <li><a class="page-scroll" href="{% if page.layout != 'default' %}/{% endif %}#contact">CONTACT</a></li>
                 <li><a class="page-scroll" href="#" data-toggle="modal" data-target="#login">LOG IN</a></li>
             </ul>
         </div>
