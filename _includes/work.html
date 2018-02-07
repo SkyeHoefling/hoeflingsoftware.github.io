@@ -5,9 +5,11 @@
     <div class="casestudies">
       {% for post in site.posts %}
         {% if post.category == 'Work' %}      
-          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-center">
-            <img class="work" src="/img/casestudies/{{ post.img }}" />
-            <h3>{{ post.title }}</h3>
+          <div class="work col-xs-12 col-sm-6 col-md-4 col-lg-4 text-center">
+            <a href="/casestudy">
+              <img class="work" src="/img/casestudies/{{ post.img }}" />
+              <h3>{{ post.title }}</h3>
+            </a>
           </div>         
         {% endif %}      
       {% endfor %}

@@ -239,5 +239,11 @@ img.work {
 
 img.work:hover {
     filter:grayscale(0%);
-    cursor: pointer;
+}
+
+.work{
+    padding-top:1em;
+}
+.work:hover{
+    background-color: #f5f5f5;
 }
