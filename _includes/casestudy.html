@@ -1,0 +1,18 @@
+<section id="casestudy" class="container">
+    <div class="row casestudy">
+        <h2>{{ page.projectTitle }}</h2>
+        <div class="images col-xs-12 col-sm-8 col-md-7 col-lg-7">
+            {% for image in page.images %}            
+                <img class="thumbnail" src="/img/casestudies/{{ image.file }}" />
+            {% endfor %}
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-5 col-lg-5">
+            <h3>Situation</h3>
+            <p>{{ page.situation }}</p>
+            <h3>Solution</h3>
+            <p>{{ page.solution }}</p>
+            <h3>Result</h3>
+            <p>{{ page.result }}</p>
+        </div>
+    </div>
+</section>
